@@ -1,5 +1,4 @@
 const mongose = require('mongoose')
-const {required} = require("joi");
 
 const JobSchema = new mongose.Schema({
     company: {
